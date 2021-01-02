@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/82d3e57b92.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/">
+    <title>Contact</title>
+</head>
+<body id="bg-img">
+    <header>
+        <div class="menu-btn">
+            <div class="btn-line"></div>
+            <div class="btn-line"></div>
+            <div class="btn-line"></div>
+        </div>
+
+      <nav class="menu">
+        <div class="menu-branding">
+            <div class="potrait"></div>
+        </div>  
+        <ul class="menu-nav">
+         <li class="nav-item">
+             <a href="index.html" class="nav-link">
+            Home    
+            </a>
+         </li>   
+         <li class="nav-item">
+             <a href="about.html" class="nav-link">
+            About Me    
+            </a>
+         </li>   
+         <li class="nav-item">
+             <a href="projects.html" class="nav-link">
+            Projects   
+            </a>
+         </li>   
+
+         <li class="nav-item">
+             <a href="skills.html" class="nav-link">
+            Skills   
+            </a>
+         </li>   
+
+         <li class="nav-item current">
+             <a href="contact.html" class="nav-link">
+            How To Reach Me   
+            </a>
+
+         <li class="nav-item">
+             <a href="http://theworkingcoder.com/" class="nav-link">
+            Blog   
+            </a>
+         </li>   
+        </ul>
+      </nav>  
+    </header>
+
+    <main id="contact">
+
+        <h1 class="lg-heading">
+            Contact <span class= "text-secondary">Me</span>
+        </h1>
+        <h2 class="sm-heading">
+            This is how you can reach me...
+        </h2>
+
+        <!-- Contact form -->
+
+      
+        <div class="container">  
+            <form id="top" action="https://formspree.io/f/meqppdlz" method="POST">
+
+             <!-- First Name -->
+                <fieldset>
+                <input placeholder="Your name" name="First Name" type="text" tabindex="1" required autofocus>
+              </fieldset>
+
+              <!-- Last Name -->
+                <fieldset>
+                <input placeholder="Your Last name" name="Last Name" type="text" tabindex="1" required autofocus>
+              </fieldset>
+
+              <!-- Email -->
+              <fieldset>
+                <input placeholder="Your Email Address" name="_replyto" type="email" tabindex="2" required>
+              </fieldset>
+
+              <!-- Phone Number -->
+              <fieldset>
+                <input placeholder="Your Phone Number (optional)" type="tel" tabindex="3" required>
+              </fieldset>
+
+              <!-- Message -->
+              <fieldset>
+                <textarea placeholder="Type your message here...." tabindex="5" required></textarea>
+              </fieldset>
+
+              <fieldset>
+                <button name="submit" type="submit" id="contact-submit" data-submit="...Sending">Submit</button>
+              </fieldset>
+
+              
+            </form>
+          </div>
+    
+
+    </main>
+
+    <footer id="main-footer">
+        Copyright &copy; 2021
+    </footer>
+    
+    <script src="main.js"></script>
+</body>
+</html>
